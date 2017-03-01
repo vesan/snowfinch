@@ -1,6 +1,6 @@
 source :rubygems
 
-gem "rails", "3.0.7"
+gem "rails", "3.0.10"
 gem "rake", "0.8.7"
 
 gem "compass"
@@ -17,7 +17,7 @@ group :test do
   gem "capybara"
   gem "database_cleaner"
   gem "email_spec"
-  gem "factory_girl_rails", ">= 1.1.beta1"
+  gem "factory_girl_rails", ">= 1.1.0"
   gem "fuubar"
   gem "launchy"
   gem "shoulda-matchers", :require => false
@@ -30,7 +30,7 @@ group :production do
 end
 
 group :development, :test do
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 2.5.0"
   gem "sqlite3-ruby"
   gem "steak"
 end
