@@ -14,7 +14,7 @@ gem "snowfinch-collector", "~> 0.5.0", :require => "snowfinch/collector"
 group :test do
   gem "autotest", :require => false
   gem "autotest-growl", :require => false
-  gem "capybara"
+  gem "capybara", ">= 0.4.1.2"
   gem "database_cleaner"
   gem "email_spec"
   gem "factory_girl_rails", ">= 1.1.beta1"
